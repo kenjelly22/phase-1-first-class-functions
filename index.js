@@ -3,5 +3,12 @@ function receivesAFunction(cb) {
 }
 
 receivesAFunction(function () {
-  return "Baby don't hurt me.";
+  return "What is love?";
 });
+
+function returnsANamedFunction() {
+  function noMore() {
+    return "Baby don't hurt me.";
+  }
+  return noMore;
+}
