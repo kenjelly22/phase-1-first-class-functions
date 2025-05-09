@@ -12,3 +12,7 @@ function returnsANamedFunction() {
   }
   return noMore;
 }
+
+function returnsAnAnonymousFunction() {
+  return () => {};
+}
